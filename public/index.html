@@ -5,25 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora</title>
   <link rel="stylesheet" href="../public/css/tailwind.css">
-</head>
-<body class="bg-[#408c8c] flex items-center justify-center min-h-screen text-green-300">
-  <div class="bg-[#204c54]  rounded-lg shadow-lg  max-w-7xl">
-    <h1 class="text-4xl font-mono mb-8 text-[#408c8c] text-center mt-4">Calculadora de Porcentaje</h1> 
-    <hr class="border-t-4 border-[#408c8c] w-screen mb-8">
-    <div class="text-center  text-white text-4xl mb-8 mt-16"> 
-      <span>Calcula el</span>
-      <input type="number" id="percentage" placeholder="0" class="bg-[#408c8c] text-2xl text-white rounded px-4 py-2 text-left mx-2 w-64">
-      <span>% de</span>
-      <input type="number" id="number" placeholder="0" class="bg-[#408c8c] text-2xl text-white rounded px-4 py-2 text-left mx-2 w-64">
-    </div>
-    <div class="flex justify-center p-8 mb-8"> 
-      <button id="calculate" class="bg-[#204c54] text-[#b0f7c8] border-4 border-[#b0f7c8] rounded-lg px-24 py-2 text-2xl font-bold hover:bg-[#408c8c] hover:text-[#204c54] transition">CALCULAR</button>
-    </div>
-    <div class="mt-8 mb-14 p-10 text-center"> 
-      <p id="result" class="text-5xl font-bold text-[#b0f7c8]">Resultado: </p>
-    </div>
-
-  </div>
   <script src="./js/main.js"></script>
+</head>
+<body class="bg-[#408c8c] flex items-center justify-center min-h-screen text-green-300 font-source-code">
+  <div class="bg-[#204c54] rounded-lg shadow-lg max-w-7xl w-full mx-4 sm:mx-6 lg:mx-8">
+    <h1 class="text-3xl sm:text-5xl font-bold mb-8 text-[#408c8c] text-center mt-4">Calculadora de Porcentaje</h1>
+    <hr class="border-t-4 border-[#408c8c] w-full mb-8">
+    <div class="text-center text-white text-2xl sm:text-3xl lg:text-4xl mb-8 mt-8">
+      <div class="flex flex-col lg:flex-row items-center justify-center space-y-4 lg:space-y-0 lg:space-x-4">
+        <span>Calcula el</span>
+        <input type="number" id="percentage" placeholder="0" class="bg-[#408c8c] font-sans text-lg sm:text-2xl text-white rounded px-4 py-2 text-left w-48 sm:w-64">
+        <span>% de</span>
+        <input type="number" id="number" placeholder="0" class="bg-[#408c8c] font-sans text-lg sm:text-2xl text-white rounded px-4 py-2 text-left w-48 sm:w-64">
+      </div>
+    </div>
+    <div class="flex justify-center p-4 sm:p-8 mb-8">
+      <button id="calculate" class="bg-[#204c54] text-[#b0f7c8] border-4 border-[#b0f7c8] rounded-lg px-16 sm:px-24 py-2 text-lg sm:text-2xl font-bold hover:bg-[#408c8c] hover:text-[#204c54] transition">CALCULAR</button>
+    </div>
+    <div class="mt-8 mb-14 p-4 sm:p-10 text-center">
+      <p id="result" class="text-3xl sm:text-5xl font-bold text-[#b0f7c8]">Resultado: </p>
+    </div>
+  </div>
+  
 </body>
 </html>
