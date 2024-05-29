@@ -749,19 +749,9 @@ select {
   --tw-contain-style:  ;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .mb-14 {
@@ -770,10 +760,6 @@ select {
 
 .mb-8 {
   margin-bottom: 2rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
 }
 
 .mt-4 {
@@ -790,14 +776,6 @@ select {
 
 .min-h-screen {
   min-height: 100vh;
-}
-
-.w-64 {
-  width: 16rem;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .w-48 {
@@ -866,29 +844,13 @@ select {
   background-color: rgb(64 140 140 / var(--tw-bg-opacity));
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
-.p-8 {
-  padding: 2rem;
-}
-
-.p-0 {
-  padding: 0px;
-}
-
-.p-1 {
-  padding: 0.25rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
 
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .px-4 {
@@ -901,11 +863,6 @@ select {
   padding-bottom: 0.5rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -914,31 +871,17 @@ select {
   text-align: center;
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular;
+.font-sans {
+  font-family: ui-sans-serif, system-ui;
 }
 
 .font-source-code {
   font-family: "Source Code Pro", monospace;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-3xl {
@@ -953,10 +896,6 @@ select {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
 }
 
 .text-\[\#408c8c\] {
@@ -1013,10 +952,6 @@ select {
     width: 16rem;
   }
 
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
   .sm\:p-10 {
     padding: 2.5rem;
   }
@@ -1040,18 +975,8 @@ select {
     line-height: 2.25rem;
   }
 
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .sm\:text-5xl {
     font-size: 3rem;
-    line-height: 1;
-  }
-
-  .sm\:text-6xl {
-    font-size: 3.75rem;
     line-height: 1;
   }
 }
