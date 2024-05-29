@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="../public/css/tailwind.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="../public/css/tailwind.css">
 </head>
-<body class="bg-[#408c8c] flex items-center justify-center min-h-screen font-mono text-green-300 relative">
-  <div class="bg-[#204c54] p-24 rounded-lg shadow-lg w-full max-w-7xl relative">
-    <h2 class="text-4xl font-bold mb-8 text-[#408c8c] text-center">Calculadora de Porcentaje</h2> 
-    <hr class="border-t-4 border-[#408c8c] mb-8">
-    <div class="text-center text-white text-2xl mb-8 mt-16"> 
+<body class="bg-[#408c8c] flex items-center justify-center min-h-screen text-green-300">
+  <div class="bg-[#204c54]  rounded-lg shadow-lg  max-w-7xl">
+    <h1 class="text-4xl font-mono mb-8 text-[#408c8c] text-center mt-4">Calculadora de Porcentaje</h1> 
+    <hr class="border-t-4 border-[#408c8c] w-screen mb-8">
+    <div class="text-center  text-white text-4xl mb-8 mt-16"> 
       <span>Calcula el</span>
-      <input type="number" id="percentage" placeholder="0" class="bg-[#408c8c] text-white rounded px-4 py-2 text-center mx-2 w-64">
+      <input type="number" id="percentage" placeholder="0" class="bg-[#408c8c] text-2xl text-white rounded px-4 py-2 text-left mx-2 w-64">
       <span>% de</span>
-      <input type="number" id="number" placeholder="0" class="bg-[#408c8c] text-white rounded px-4 py-2 text-center mx-2 w-64">
+      <input type="number" id="number" placeholder="0" class="bg-[#408c8c] text-2xl text-white rounded px-4 py-2 text-left mx-2 w-64">
     </div>
-    <div class="flex justify-center mb-8"> 
+    <div class="flex justify-center p-8 mb-8"> 
       <button id="calculate" class="bg-[#204c54] text-[#b0f7c8] border-4 border-[#b0f7c8] rounded-lg px-24 py-2 text-2xl font-bold hover:bg-[#408c8c] hover:text-[#204c54] transition">CALCULAR</button>
     </div>
-    <div class="mt-8 mb-8 text-center"> 
+    <div class="mt-8 mb-14 p-10 text-center"> 
       <p id="result" class="text-5xl font-bold text-[#b0f7c8]">Resultado: </p>
     </div>
-  </div>
 
+  </div>
   <script src="./js/main.js"></script>
 </body>
 </html>
